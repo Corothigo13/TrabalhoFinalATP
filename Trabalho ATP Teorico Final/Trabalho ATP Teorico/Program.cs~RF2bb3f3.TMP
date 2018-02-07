@@ -1,0 +1,331 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;
+
+namespace Trabalho_ATP_Teorico
+{
+    /*Problemas*/
+    class Program
+    {
+        public static void CadastroCliente()              //Função de cadastro de cliente
+        {
+            string nome, endereço;
+            int codcliente;
+            double telefone;
+            FileStream arq = new FileStream("Cadastro Cliente.txt", FileMode.Append);
+            StreamWriter escreve = new StreamWriter(arq);
+
+            Console.WriteLine("Digite o nome do cliente:");
+            nome = Console.ReadLine();
+            Console.WriteLine("Digite o endereço do cliete:");
+            endereço = Console.ReadLine();
+            Console.WriteLine("Digite o telefone do cliente:");
+            telefone = double.Parse(Console.ReadLine());
+            Random rdn = new Random();
+            codcliente = rdn.Next(0, 99999999);
+            escreve.WriteLine(nome + "|" + codcliente + "|" + endereço + "|" + telefone + ".");
+            escreve.Close();
+            Console.Clear();
+
+        }
+        public static void Cadastrofuncionario()         //Função de cadastro de funcionarios
+        {
+            string nome, cargo;
+            int codfuncionario;
+            double salario, telefone;
+            FileStream arq1 = new FileStream("Cadastro Funcionario.txt", FileMode.Append);
+            StreamWriter escreve = new StreamWriter(arq1);
+            Console.WriteLine("Digite o nome do funcionario:");
+            nome = Console.ReadLine();
+            Console.WriteLine("Digite o telefone do funcionario:");
+            telefone = double.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o cargo do funcionario:");
+            cargo = Console.ReadLine();
+            Console.WriteLine("Digite o salario do funcionario:");
+            salario = double.Parse(Console.ReadLine());
+            Random rdn = new Random();
+            codfuncionario = rdn.Next(0, 99999999);
+            escreve.WriteLine(nome + "|" + codfuncionario + "|" + cargo + "|" + salario + "|" + telefone + ".");
+            escreve.Close();
+            Console.Clear();
+
+        }
+        public static void CadastroVeiculo()            //Função de cadastro de veiculo
+        {
+            string modelo, cor, placa, descriçao, status;
+            double valordia;
+            int qtdeocupantes, codveiculo;
+            FileStream arq3 = new FileStream("Cadastro Veiculo.txt", FileMode.Append);
+            StreamWriter escreve = new StreamWriter(arq3);
+            Console.WriteLine("Digite o modelo do veiculo:");
+            modelo = Console.ReadLine();
+            Console.WriteLine("Digite a cor do veiculo:");
+            cor = Console.ReadLine();
+            Console.WriteLine("Digite a placa do veiculo:");
+            placa = Console.ReadLine();
+            Console.WriteLine("Descreva o veiculo:");
+            descriçao = Console.ReadLine();
+            Console.WriteLine("Qual o valor da diaria do veiculo em reais?");
+            valordia = double.Parse(Console.ReadLine());
+            Console.WriteLine("Digite a quantidade de ocupantes que cabem no veiculo:");
+            qtdeocupantes = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o status do veiculo:");
+            status = Console.ReadLine();
+            Random rdn = new Random();
+            codveiculo = rdn.Next(0, 99999999);
+            escreve.WriteLine(codveiculo + "|" + modelo + "|" + cor + "|" + placa + "|" + qtdeocupantes + "|" + valordia + "|" + status + "|" + descriçao + ".");
+            escreve.Close();
+            Console.Clear();
+
+        }
+        public static int CadastroLocação()            //função para cadastro de locação
+        {
+//          int  diaretirada, mesretirada, anoretirada, diadev, mesdev, anodev, qtdedias, qtdeocupantes;
+            int qtdeocupantes, valorseguro=0;
+            double codcliente, codveiculo, codlocação;
+            string seguro, dataret, datadev;
+            string []vet = new string[1];
+            string[] vet2 = new string[1]; 
+            FileStream arq4 = new FileStream("Cadastro locação.txt", FileMode.Append);
+            StreamWriter escreve = new StreamWriter(arq4);
+            Console.WriteLine("Digite o codigo do cliente:");
+            codcliente = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o codigo do veiculo que está sendo locado:");
+            codveiculo = int.Parse(Console.ReadLine());
+            Console.WriteLine("Deseja um veiculo que caiba quantos passageiros?");
+            qtdeocupantes = int.Parse(Console.ReadLine());
+            Console.WriteLine("Deseja que tenha seguro ?");
+            seguro = Console.ReadLine().ToUpper();
+            if(seguro == "sim")
+            {
+                valorseguro = 50;
+            }
+            if(seguro == "não")
+            {
+                valorseguro = 0;
+            }
+            Random rdn = new Random();
+            codlocação = rdn.Next(0, 99999999);
+            for(int i=0; i<1; i++)
+            {
+                if (i == 0)
+                {
+                    Console.WriteLine("Digite a data da RETIRADA do veiculo:");
+                    dataret = Console.ReadLine();
+                    vet[i] = dataret;
+                }
+            }
+            for (int j = 0; j < 1; j++)
+            {
+                if (j == 0)
+                {
+                    Console.WriteLine("Digite a data da DEVOLUÇÃO veiculo:");
+                    datadev = Console.ReadLine();
+                    vet2[j] = datadev;
+                }
+
+            }
+
+            escreve.WriteLine(codlocação + "|" + vet[0] +"|" + vet2[0]+"|" + codcliente + "|" + codveiculo + "|" + qtdeocupantes + "|" + seguro + ".");
+
+            escreve.Close();
+            Console.Clear();
+            return valorseguro;
+        }
+        public static void Pesquisa()
+        {
+            int escolha;
+
+            do
+            {
+                Console.WriteLine("Deseja pesquisar o que:\n1- Cliente.\n2- Veiculo.\n3- Funcionario.\n4- Locação.\n5- Cancelar");
+                escolha = int.Parse(Console.ReadLine());
+                if (escolha == 1)
+                {
+                    FileStream arq1 = new FileStream("Cadastro Cliente.txt", FileMode.Open);
+                    StreamReader ler = new StreamReader(arq1);
+                    string[] cliente;
+                    string nomecliente;
+                    Console.WriteLine("Digite o nome do cliente que deseja:");
+                    nomecliente = Console.ReadLine();
+                    Console.Write("\n");
+                    string linha;
+                    do
+                    {
+                        linha = ler.ReadLine();
+                        if (linha != null)
+                        {
+                            cliente = linha.Split('|');
+                            if (cliente[0] == nomecliente)
+                            {
+                                Console.Clear();               
+                                Console.Write("\n");
+                                Console.WriteLine(linha);
+                                Console.Write("\n");
+                            }
+                        }
+
+                    } while (linha != null);
+                    ler.Close();
+
+                }
+                if (escolha == 2)
+                {
+                    FileStream arq3 = new FileStream("Cadastro Veiculo.txt", FileMode.Open);
+                    StreamReader ler = new StreamReader(arq3);
+                    string[] veiculo;
+                    string linha;
+                    double codigoveiculo;
+                    Console.WriteLine("Digite o codigo do veiculo que deseja pesquisar:");
+                    codigoveiculo = int.Parse(Console.ReadLine());
+                    Console.Write("\n");
+                    do
+                    {
+
+                        linha = ler.ReadLine();
+                        if (linha != null)
+                        {
+                            veiculo = linha.Split('|');
+                            if (Convert.ToInt32(veiculo[0]) == (codigoveiculo))
+                            {
+                                Console.Clear();                      
+                                Console.Write("\n");
+                                Console.WriteLine(linha);
+                                Console.Write("\n");
+                            }
+                        }
+                    } while (linha != null);
+
+                }
+                if (escolha == 3)
+                {
+                    FileStream arq2 = new FileStream("Cadastro Funcionario.txt", FileMode.Open);
+                    StreamReader ler = new StreamReader(arq2);
+                    string[] funcionario;
+                    string linha;
+                    double codigofuncionario;
+                    Console.WriteLine("Digite o codigo do funcionario que deseja pesquisar:");
+                    codigofuncionario = double.Parse(Console.ReadLine());
+                    do
+                    {
+                        linha = ler.ReadLine();
+                        if (linha != null)
+                        {
+                            funcionario = linha.Split('|');
+                            if (Convert.ToInt32(funcionario[1]) == (codigofuncionario))
+                            //    if (funcionario[0] == codigofuncionario)
+                            {
+                                Console.Clear();            
+                                Console.Write("\n");
+                                Console.Write(linha);
+                                Console.Write("\n");
+                            }
+                        }
+                    } while (linha != null);
+                }
+                if (escolha == 4)
+                {
+                    FileStream arq4 = new FileStream("Cadastro locação.txt", FileMode.Open);
+                    StreamReader ler = new StreamReader(arq4);
+                    string[] locaçao;
+                    string linha;
+                    double codigolocação;
+                    Console.WriteLine("Digite o codigo da locação que deseja pesquisar:");
+                    codigolocação = double.Parse(Console.ReadLine());
+                    Console.Write("\n");
+                    do
+                    {
+
+                        linha = ler.ReadLine();
+                        if (linha != null)
+                        {
+                            locaçao = linha.Split('|');
+                            if (Convert.ToInt32(locaçao[0]) == (codigolocação))
+                            {
+                                Console.Clear();                
+                                Console.Write("\n");
+                                Console.Write(linha);
+                                Console.Write("\n");
+                            }
+                        }
+                    } while (linha != null);
+                }
+
+            } while (escolha > 0 && escolha < 5);
+
+        }
+        static void Main(string[] args)
+        {
+            int horas;
+            Console.WriteLine("Bem vindo!\nPor favor, informe quantas horas são, digite somente as horas, não é necessario os minutos:");
+            horas =int.Parse(Console.ReadLine());
+            if (horas >= 8 && horas < 18)
+            {
+                Console.Clear();
+                int op, escolha2;
+
+                do
+                {
+                    Console.WriteLine("Escolha uma opção:\n1- Para Cadastros.\n2- Para Fazer uma Locação.\n3- Para Pesquisar.\n4- Para Sair.");
+                    op = int.Parse(Console.ReadLine());
+                    Console.Clear();
+                    if (op == 1)
+                    {
+                        do
+                        {
+                            Console.WriteLine("Deseja cadastrar:\n1- Cliente.\n2- Funcionario.\n3- Veiculo.\n4- Para cancelar");
+                            escolha2 = int.Parse(Console.ReadLine());
+                            Console.Clear();
+                            if (escolha2 == 1)
+                            {
+                                CadastroCliente();
+                                Console.WriteLine("Cadastro de Cliente feito com sucesso.");
+                                Console.Write("\n");
+                            }
+                            if (escolha2 == 2)
+                            {
+                                Cadastrofuncionario();
+                                Console.WriteLine("Cadastro de funcionario feito com sucesso.");
+                                Console.Write("\n");
+
+                            }
+                            if (escolha2 == 3)
+                            {
+                                CadastroVeiculo();
+                                Console.WriteLine("Cadastro de veiculo feito com sucesso.");
+                                Console.Write("\n");
+
+                            }
+
+                        } while (escolha2 < 4);
+                    }
+
+                    if (op == 2)
+                    {
+                        CadastroLocação();
+                        Console.WriteLine("Cadastro de locação feita com sucesso.");
+                        Console.Write("\n");
+
+                    }
+                    if (op == 3)
+                    {
+                        Pesquisa();
+                    }
+                } while (op > 0 && op <= 3);
+                if (op > 3)
+                {
+                    Console.WriteLine("Tecle enter para fechar o programa.");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Fora do horario de funcionamento do programa.\nPor favor tecle enter para fechar o programa.");
+            }
+            Console.ReadKey();
+        }
+
+    }
+}

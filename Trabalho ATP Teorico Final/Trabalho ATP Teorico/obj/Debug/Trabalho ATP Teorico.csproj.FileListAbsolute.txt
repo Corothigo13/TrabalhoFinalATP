@@ -1,0 +1,48 @@
+C:\Users\1067510\Desktop\Trabalho ATP Teorico\Trabalho ATP Teorico\bin\Debug\Trabalho ATP Teorico.exe.config
+C:\Users\1067510\Desktop\Trabalho ATP Teorico\Trabalho ATP Teorico\bin\Debug\Trabalho ATP Teorico.exe
+C:\Users\1067510\Desktop\Trabalho ATP Teorico\Trabalho ATP Teorico\bin\Debug\Trabalho ATP Teorico.pdb
+C:\Users\1067510\Desktop\Trabalho ATP Teorico\Trabalho ATP Teorico\obj\Debug\Trabalho ATP Teorico.csprojResolveAssemblyReference.cache
+C:\Users\1067510\Desktop\Trabalho ATP Teorico\Trabalho ATP Teorico\obj\Debug\Trabalho ATP Teorico.exe
+C:\Users\1067510\Desktop\Trabalho ATP Teorico\Trabalho ATP Teorico\obj\Debug\Trabalho ATP Teorico.pdb
+C:\Users\marin\Desktop\Trabalho ATP Teorico\Trabalho ATP Teorico\bin\Debug\Trabalho ATP Teorico.exe.config
+C:\Users\marin\Desktop\Trabalho ATP Teorico\Trabalho ATP Teorico\obj\Debug\Trabalho ATP Teorico.exe
+C:\Users\marin\Desktop\Trabalho ATP Teorico\Trabalho ATP Teorico\obj\Debug\Trabalho ATP Teorico.pdb
+C:\Users\marin\Desktop\Trabalho ATP Teorico\Trabalho ATP Teorico\bin\Debug\Trabalho ATP Teorico.exe
+C:\Users\marin\Desktop\Trabalho ATP Teorico\Trabalho ATP Teorico\bin\Debug\Trabalho ATP Teorico.pdb
+C:\Users\marin\Desktop\Trabalho ATP Teorico\Trabalho ATP Teorico\obj\Debug\Trabalho ATP Teorico.csprojResolveAssemblyReference.cache
+C:\Users\Thiago\Desktop\Trabalho ATP Teorico\Trabalho ATP Teorico\bin\Debug\Trabalho ATP Teorico.exe.config
+C:\Users\Thiago\Desktop\Trabalho ATP Teorico\Trabalho ATP Teorico\bin\Debug\Trabalho ATP Teorico.exe
+C:\Users\Thiago\Desktop\Trabalho ATP Teorico\Trabalho ATP Teorico\bin\Debug\Trabalho ATP Teorico.pdb
+C:\Users\Thiago\Desktop\Trabalho ATP Teorico\Trabalho ATP Teorico\obj\Debug\Trabalho ATP Teorico.csprojResolveAssemblyReference.cache
+C:\Users\Thiago\Desktop\Trabalho ATP Teorico\Trabalho ATP Teorico\obj\Debug\Trabalho ATP Teorico.exe
+C:\Users\Thiago\Desktop\Trabalho ATP Teorico\Trabalho ATP Teorico\obj\Debug\Trabalho ATP Teorico.pdb
+C:\Users\Thiago\Documents\PUC\Ivre\Trabalho Teorico (loca mais)\Trabalho ATP Teorico\Trabalho ATP Teorico\bin\Debug\Trabalho ATP Teorico.exe.config
+C:\Users\Thiago\Documents\PUC\Ivre\Trabalho Teorico (loca mais)\Trabalho ATP Teorico\Trabalho ATP Teorico\bin\Debug\Trabalho ATP Teorico.exe
+C:\Users\Thiago\Documents\PUC\Ivre\Trabalho Teorico (loca mais)\Trabalho ATP Teorico\Trabalho ATP Teorico\bin\Debug\Trabalho ATP Teorico.pdb
+C:\Users\Thiago\Documents\PUC\Ivre\Trabalho Teorico (loca mais)\Trabalho ATP Teorico\Trabalho ATP Teorico\obj\Debug\Trabalho ATP Teorico.csprojResolveAssemblyReference.cache
+C:\Users\Thiago\Documents\PUC\Ivre\Trabalho Teorico (loca mais)\Trabalho ATP Teorico\Trabalho ATP Teorico\obj\Debug\Trabalho ATP Teorico.exe
+C:\Users\Thiago\Documents\PUC\Ivre\Trabalho Teorico (loca mais)\Trabalho ATP Teorico\Trabalho ATP Teorico\obj\Debug\Trabalho ATP Teorico.pdb
+E:\PUC\Ivre\Trabalho Teorico (loca mais)\Trabalho ATP Teorico\Trabalho ATP Teorico\bin\Debug\Trabalho ATP Teorico.exe.config
+E:\PUC\Ivre\Trabalho Teorico (loca mais)\Trabalho ATP Teorico\Trabalho ATP Teorico\obj\Debug\Trabalho ATP Teorico.exe
+E:\PUC\Ivre\Trabalho Teorico (loca mais)\Trabalho ATP Teorico\Trabalho ATP Teorico\obj\Debug\Trabalho ATP Teorico.pdb
+C:\Users\1067510.PUCMINAS\Desktop\Trabalho ATP Teorico\Trabalho ATP Teorico\bin\Debug\Trabalho ATP Teorico.exe.config
+C:\Users\1067510.PUCMINAS\Desktop\Trabalho ATP Teorico\Trabalho ATP Teorico\obj\Debug\Trabalho ATP Teorico.exe
+C:\Users\1067510.PUCMINAS\Desktop\Trabalho ATP Teorico\Trabalho ATP Teorico\obj\Debug\Trabalho ATP Teorico.pdb
+C:\Users\1067510.PUCMINAS\Desktop\Trabalho ATP Teorico\Trabalho ATP Teorico\bin\Debug\Trabalho ATP Teorico.exe
+C:\Users\1067510.PUCMINAS\Desktop\Trabalho ATP Teorico\Trabalho ATP Teorico\bin\Debug\Trabalho ATP Teorico.pdb
+C:\Users\1067510.PUCMINAS\Desktop\Trabalho ATP Teorico\Trabalho ATP Teorico\obj\Debug\Trabalho ATP Teorico.csprojResolveAssemblyReference.cache
+F:\Trabalho ATP Teorico atualizado puc\Trabalho ATP Teorico\bin\Debug\Trabalho ATP Teorico.exe.config
+F:\Trabalho ATP Teorico atualizado puc\Trabalho ATP Teorico\obj\Debug\Trabalho ATP Teorico.exe
+F:\Trabalho ATP Teorico atualizado puc\Trabalho ATP Teorico\obj\Debug\Trabalho ATP Teorico.pdb
+C:\Users\Thiago\Desktop\Trabalho ATP Teorico atualizado puc\Trabalho ATP Teorico\bin\Debug\Trabalho ATP Teorico.exe.config
+C:\Users\Thiago\Desktop\Trabalho ATP Teorico atualizado puc\Trabalho ATP Teorico\bin\Debug\Trabalho ATP Teorico.exe
+C:\Users\Thiago\Desktop\Trabalho ATP Teorico atualizado puc\Trabalho ATP Teorico\bin\Debug\Trabalho ATP Teorico.pdb
+C:\Users\Thiago\Desktop\Trabalho ATP Teorico atualizado puc\Trabalho ATP Teorico\obj\Debug\Trabalho ATP Teorico.csprojResolveAssemblyReference.cache
+C:\Users\Thiago\Desktop\Trabalho ATP Teorico atualizado puc\Trabalho ATP Teorico\obj\Debug\Trabalho ATP Teorico.exe
+C:\Users\Thiago\Desktop\Trabalho ATP Teorico atualizado puc\Trabalho ATP Teorico\obj\Debug\Trabalho ATP Teorico.pdb
+C:\Users\Thiago\Documents\PUC\Ivre\Trabalho ATP Teorico atualizado puc\Trabalho ATP Teorico\bin\Debug\Trabalho ATP Teorico.exe.config
+C:\Users\Thiago\Documents\PUC\Ivre\Trabalho ATP Teorico atualizado puc\Trabalho ATP Teorico\bin\Debug\Trabalho ATP Teorico.exe
+C:\Users\Thiago\Documents\PUC\Ivre\Trabalho ATP Teorico atualizado puc\Trabalho ATP Teorico\bin\Debug\Trabalho ATP Teorico.pdb
+C:\Users\Thiago\Documents\PUC\Ivre\Trabalho ATP Teorico atualizado puc\Trabalho ATP Teorico\obj\Debug\Trabalho ATP Teorico.csprojResolveAssemblyReference.cache
+C:\Users\Thiago\Documents\PUC\Ivre\Trabalho ATP Teorico atualizado puc\Trabalho ATP Teorico\obj\Debug\Trabalho ATP Teorico.exe
+C:\Users\Thiago\Documents\PUC\Ivre\Trabalho ATP Teorico atualizado puc\Trabalho ATP Teorico\obj\Debug\Trabalho ATP Teorico.pdb
